@@ -11,5 +11,7 @@ namespace KUSYS_Demo.Models
         [Required, StringLength(50)]
         public string CourseName { get; set; } = string.Empty;
 
+        public virtual ICollection<StudentsCourse> StudentsCourses { get; set; }
+
     }
 }

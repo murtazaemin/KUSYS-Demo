@@ -12,5 +12,7 @@ namespace KUSYS_Demo.Models
         public string LastName { get; set; } = string.Empty;
         [Required]
         public DateTime BirthDate { get; set; }
+
+        public virtual ICollection<StudentsCourse> StudentsCourses { get; set; }
     }
 }
