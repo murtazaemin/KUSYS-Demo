@@ -3,7 +3,7 @@
     // Öğrenci listesinin çekilmesi
     var datatable = $('#StudentTable').DataTable({
         language: {
-            "url": "https://cdn.datatables.net/plug-ins/1.11.5/i18n/tr.json"
+            "url": "https://cdn.datatables.net/plug-ins/1.11.5/i18n/en.json"
         },
         "serverSide": true,
         "autoWidth": false,
